@@ -1,2 +1,2 @@
-# php-weekly-timetable
-A simple PHP project that displays a weekly class timetable, lists subjects for each day, and calculates the total number of classes in a week.
+# php-simple-projects-for-beginners
+A collection of simple PHP projects for beginners to practice programming, improve coding skills, and learn the fundamentals of web development through hands-on examples.
