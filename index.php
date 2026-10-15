@@ -1,5 +1,6 @@
 <?php
 
+//weekly timetable
 $timetable = [ "saturday" => ["web2","english"], "sunday" => ["oop","web2","math"], "monday" => ["database"], "tuesday" => ["oop","web2"]];
 $totalclass = 0;
     echo "<table border = '1' cellpadding = '8'> ";
@@ -19,7 +20,17 @@ $totalclass = 0;
         echo "<p> Total class this week:
         $totalclass</p>";
         
+//Registration access
+$cerdits = 18;
+$feePaid = true;
 
+$canRegister = ($cerdits >= 15) && $feePaid;
+
+    if ($canRegister){
+        echo " Registration allowed";
+    } else{
+        echo " Registration not allowed";
+    }
 
 
 
